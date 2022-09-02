@@ -1,0 +1,166 @@
+  @media (min-width: 992px) {
+      .component-hero-banner-tall {
+          min-height: 640px !important;
+      }
+  }
+
+  #bg.component-hero-banner-tall .banner-content .banner-inner {
+      top: 50%;
+  }
+
+  @media only screen and (max-width: 767px) {
+      #bg {
+          background-image: url("../img/hero-mobile.png.imgo.png");
+      }
+  }
+
+  @media (min-width: 768px) {
+      #bg {
+          background-image: url("../img/hero-tablet.png.imgo.png");
+      }
+  }
+
+  @media (min-width: 992px) {
+      #bg {
+          background-image: url("../img/hero-desktop.png.imgo.png");
+          height: 100vh;
+          top: 0;
+      }
+  }
+
+
+  #first {
+      height: 400px;
+  }
+
+  #first>a {
+      width: 100%;
+  }
+
+  @media only screen and (min-width: 992px) {
+      #first {
+          height: 400px;
+      }
+  }
+
+
+  #horz {
+      height: 400px;
+  }
+
+  #horz>a {
+      width: 100%;
+  }
+
+  @media only screen and (min-width: 992px) {
+      #horz {
+          height: 400px;
+      }
+  }
+
+
+
+  #jumbo {
+      height: 400px;
+  }
+
+  #jumbo>a {
+      width: 100%;
+  }
+
+  @media only screen and (min-width: 992px) {
+      #jumbo {
+          height: 400px;
+      }
+  }
+
+  .site-container {
+      width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+
+  .container {
+      width: 100% !important;
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+  }
+
+
+  .accordion {
+      background-color: white;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      color: #2F3132;
+      cursor: pointer;
+      padding-bottom: 15px;
+      width: 100%;
+      border: none;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      text-align: left;
+      outline: none;
+      border-bottom: 1px solid #e1e2e3;
+      transition: 0.4s;
+  }
+
+  .active,
+
+  .accordion:after {
+      content: "\002B";
+      color: #2F3132;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+  }
+
+  .active:after {
+      content: "\2212";
+  }
+
+  .accordion+.panel {
+      padding: 0 0 0 0px;
+      margin-top: 8px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+  }
+
+  table {
+      border-collapse: collapse;
+      border-spacing: 0px;
+  }
+
+  table,
+  th,
+  td {
+      padding: 20px;
+      border: 1px solid #E1E2E3;
+  }
+
+  #foot.component-hero-banner .text-overlay .container.flex-container {
+      top: 40%;
+  }
+
+  @media only screen and (max-width: 767px) {
+      #foot {
+          background-image: url("../img/footer-image-mobile.png");
+      }
+  }
+
+  @media (min-width: 768px) {
+      #foot {
+          background-image: url("../img/footer-image-tablet.png");
+      }
+  }
+
+  @media (min-width: 992px) {
+      #foot {
+          background-image: url("../img/footer-image.png");
+      }
+  }
+
+
+
