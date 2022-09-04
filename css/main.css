@@ -23,7 +23,6 @@
   @media (min-width: 992px) {
       #bg {
           background-image: url("../img/hero-desktop.png.imgo.png");
-          height: 100vh;
           top: 0;
       }
   }
@@ -78,12 +77,6 @@
       width: 100% !important;
       padding-left: 0 !important;
       padding-right: 0 !important;
-  }
-
-  .container {
-      width: 100% !important;
-      padding-left: 40px !important;
-      padding-right: 40px !important;
   }
 
 
@@ -144,9 +137,11 @@
       top: 40%;
   }
 
+
   @media only screen and (max-width: 767px) {
       #foot {
           background-image: url("../img/footer-image-mobile.png");
+          width: 100%;
       }
   }
 
@@ -163,4 +158,31 @@
   }
 
 
+  .component-hero-banner-tall video {
+      display: block;
+      min-height: 327px;
+  }
 
+  .component-hero-banner .image-full-bleed .dark-text {
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .text-overlay{
+    padding-top: 50px
+}
+
+.component-hero-banner-tall{
+    min-height: 397px;
+}
+.banner-inner .content-width-40 .content-center{
+    height: 230px;
+}
+
+.email-subscription-success .form-success .js-form-success{
+    display: none;
+}
+
+.bg-color{
+    background-color: #252a2c;
+}

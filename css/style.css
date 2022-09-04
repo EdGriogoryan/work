@@ -409,7 +409,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 @font-face {
     font-family: logi-icon-2;
-    src: url(logitech-pagelibs/resources/fonts/logi-icon-2.woff2) format("woff2"), url(logitech-pagelibs/resources/fonts/logi-icon-2.ttf) format("truetype"), url(logitech-pagelibs/resources/fonts/logi-icon-2.woff) format("woff"), url(logitech-pagelibs/resources/fonts/logi-icon-2.svg) format("svg");
+    src: url(../fonts/logi-icon-2.woff2) format("woff2"), url(../fonts/logi-icon-2.ttf) format("truetype"), url(../fonts/logi-icon-2.woff) format("woff"), url(../fonts/logi-icon-2.svg) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
@@ -11333,7 +11333,7 @@ body.docked-cart-open.has-v-scroll {
 
 .pangea-cmp.pangea-docked-cart .pangea-docked-cart-drawer .docked-cart-entries .docked-cart-item-entry .product-details .attach-ctn .attach-icon-adobe {
     margin-top: 4px;
-    background-image: url(logitech-pagelibs/resources/images/adobe-icon-cc.webp)
+    background-image: url(../images/adobe-icon-cc.webp)
 }
 
 .pangea-cmp.pangea-docked-cart .pangea-docked-cart-drawer .docked-cart-entries .docked-cart-item-entry .product-details .attach-ctn .attach-button {
@@ -13116,7 +13116,7 @@ body.docked-cart-open.has-v-scroll {
 .brand-icon {
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(logitech-pagelibs/resources/images/brands-small.svg)
+    background-image: url(../images/brands-small.svg)
 }
 
 .orders-astro_small {
@@ -14308,7 +14308,7 @@ form.editable .form-field .input-field-wrapper .error {
 }
 
 .component-login-auth .social .component-cta-button button:before {
-    background-image: url(logitech-pagelibs/resources/images/login-sprite.svg);
+    background-image: url(../images/login-sprite.svg);
     background-size: 100% auto;
     content: "";
     display: inline-block;
@@ -14857,7 +14857,7 @@ body.noscroll {
 }
 
 .component-show-password-btn .pass-icon {
-    background-image: url(logitech-pagelibs/resources/images/login-sprite.svg);
+    background-image: url(../images/login-sprite.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     display: inline-block !important;
@@ -15003,7 +15003,7 @@ body.noscroll {
 }
 
 .tooltip-body li.checked:before {
-    background-image: url(logitech-pagelibs/resources/images/login-sprite.svg);
+    background-image: url(../images/login-sprite.svg);
     background-position: 0 -300px;
     background-size: 100% auto;
     content: "";
@@ -15178,7 +15178,7 @@ body.noscroll {
 
 .component-side-nav .open-close-toggle:before {
     background-color: #fff;
-    background-image: url(logitech-pagelibs/resources/images/login-sprite.svg);
+    background-image: url(../images/login-sprite.svg);
     background-position: 0px -73px;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -29241,8 +29241,8 @@ button.close {
 
 @font-face {
     font-family: FontAwesome;
-    src: url(logitech-pagelibs/resources/fonts/fontawesome-webfont.eot);
-    src: url(logitech-pagelibs/resources/fonts/fontawesome-webfont.eot) format("embedded-opentype"), url(logitech-pagelibs/resources/fonts/fontawesome-webfont.woff2) format("woff2"), url(logitech-pagelibs/resources/fonts/fontawesome-webfont.woff) format("woff"), url(logitech-pagelibs/resources/fonts/fontawesome-webfont.ttf) format("truetype"), url(logitech-pagelibs/resources/fonts/fontawesome-webfont.svg) format("svg");
+    src: url(../fonts/fontawesome-webfont.eot);
+    src: url(../fonts/fontawesome-webfont.eot) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2) format("woff2"), url(../fonts/fontawesome-webfont.woff) format("woff"), url(../fonts/fontawesome-webfont.ttf) format("truetype"), url(../fonts/fontawesome-webfont.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -36540,7 +36540,7 @@ body.edit .component-columns.hide-empty .empty-col {
 
 .component-hero-banner {
     background-position: 50% 50%;
-    height: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center
@@ -45500,7 +45500,7 @@ body.edit .secondary-nav {
 @font-face {
     .component-corporate-nav {
         font-family: logi-icon-2;
-        src: url(logitech-pagelibs/resources/fonts/logi-icon-2.woff2) format("woff2");
+        src: url(../fonts/logi-icon-2.woff2) format("woff2");
         font-weight: 400;
         font-style: normal;
         font-display: block
